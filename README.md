@@ -6,6 +6,17 @@ A lightweight Python utility for parsing, filtering, and analyzing log files.
 🚧 In active development
 
 ## Structure
-- `src/` — application source code
-- `tests/` — unit tests
-- `docs/` — documentation
+├── docs
+├── log-inspector
+│   ├── docs
+│   ├── README.md
+│   ├── scr
+│   ├── src
+│   │   └── email_validator.py
+│   └── tests
+│       └── test_email_validator.py
+├── README.md
+├── src
+│   └── email_validator.py
+└── tests
+    └── test_email_validator.py
